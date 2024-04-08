@@ -1,0 +1,31 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"A:/Games I'm Working On/Unreal Engine/MED4/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"A:/Games I'm Working On/Unreal Engine/MED4/Content/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_03.uasset",
+				"A:/Games I'm Working On/Unreal Engine/MED4/Content/ThirdPerson/Blueprints/Deaf.uasset",
+				"A:/Games I'm Working On/Unreal Engine/MED4/Content/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_04.uasset",
+				"A:/Games I'm Working On/Unreal Engine/MED4/Content/ThirdPerson/Blueprints/Blind.uasset",
+				"A:/Games I'm Working On/Unreal Engine/MED4/Content/ThirdPerson/Blueprints/SwitchingController.uasset",
+				"A:/Games I'm Working On/Unreal Engine/MED4/Content/ThirdPerson/Maps/ThirdPersonMap.umap",
+				"A:/Games I'm Working On/Unreal Engine/MED4/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/0R/JMC0HC9UL80HV1RS4BL7JY.uasset",
+				"A:/Games I'm Working On/Unreal Engine/MED4/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/XV/SOC3Q3M3IWPXK2U9Z980F2.uasset",
+				"A:/Games I'm Working On/Unreal Engine/MED4/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/CH/ODPT299HLJEOR0PZEWXMUN.uasset",
+				"A:/Games I'm Working On/Unreal Engine/MED4/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"A:/Games I'm Working On/Unreal Engine/MED4/Content/ThirdPerson/Blueprints/SaveGame.uasset",
+				"A:/Games I'm Working On/Unreal Engine/MED4/Content/ThirdPerson/Blueprints/BP_SaveGame.uasset",
+				"A:/Games I'm Working On/Unreal Engine/MED4/Content/Menu/BP_Main_Menu.uasset",
+				"A:/Games I'm Working On/Unreal Engine/MED4/Content/Menu/Level_Main_Menu_Map.umap",
+				"A:/Games I'm Working On/Unreal Engine/MED4/Content/Menu/BP_Main_Menu_Gamemode.uasset",
+				"A:/Games I'm Working On/Unreal Engine/MED4/Content/Menu/WB_Options.uasset",
+				"A:/Games I'm Working On/Unreal Engine/MED4/Content/Menu/Monkey.uasset",
+				"A:/Games I'm Working On/Unreal Engine/MED4/Content/ThirdPerson/Blueprints/Follower.uasset",
+				"A:/Games I'm Working On/Unreal Engine/MED4/Content/ThirdPerson/Blueprints/PlayerController.uasset"
+			]
+		}
+	]
+}
