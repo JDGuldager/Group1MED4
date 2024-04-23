@@ -2102,3 +2102,412 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.23-12.53.42:478][616]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
 [2024.04.23-12.53.42:483][616]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
 [2024.04.23-12.53.42:560][617]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.04.23-12.54.20:010][737]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Animations/AdministeringCpr_UE.AdministeringCpr_UE
+[2024.04.23-12.54.20:010][737]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Animations/AdministeringCpr_UE.AdministeringCpr_UE
+[2024.04.23-12.54.20:011][737]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_0
+[2024.04.23-12.54.20:012][737]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_0
+[2024.04.23-12.54.22:887][ 50]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Animations/AdministeringCpr_UE.AdministeringCpr_UE
+[2024.04.23-12.54.22:887][ 50]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Animations/AdministeringCpr_UE.AdministeringCpr_UE
+[2024.04.23-12.54.22:890][ 50]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_UAID_103D1CCDDE48EFEE01_2026303551
+[2024.04.23-12.54.22:891][ 50]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_UAID_103D1CCDDE48EFEE01_2026303551
+[2024.04.23-12.54.46:930][782]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.04.23-12.54.46:934][782]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.23-12.54.46:934][782]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.23-12.54.46:936][782]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 12 ms)
+[2024.04.23-12.54.46:936][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.23-12.54.46:936][782]PIE: New page: PIE session: ThirdPersonMap (23 Apr 2024, 16.54.46)
+[2024.04.23-12.54.46:936][782]LogPlayLevel: Display: Creating online subsystem for client :Context_29
+[2024.04.23-12.54.46:938][782]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.04.23-12.54.46:972][783]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.23-12.54.46:976][783]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003662s)
+[2024.04.23-12.54.46:976][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003705s)
+[2024.04.23-12.54.46:985][783]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.04.23-12.54.46:988][783]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.23-12.54.46:988][783]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.23-12.54.46:988][783]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.23-12.54.46:989][783]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.23-12.54.46:989][783]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.23-12.54.46:989][783]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.23-12.54.46:989][783]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.23-12.54.46:990][783]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.23-12.54.46:990][783]LogWorldPartition: Display: WorldPartition initialize took 916 us (total: 769 ms)
+[2024.04.23-12.54.46:990][783]LogPlayLevel: PIE: World Init took: (0.001899s)
+[2024.04.23-12.54.46:990][783]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.04.23-12.54.46:990][783]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.23-12.54.46:990][783]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.23-12.54.46:990][783]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.23-12.54.46:990][783]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.23-12.54.46:990][783]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.23-12.54.46:990][783]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.23-12.54.46:990][783]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.23-12.54.46:990][783]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.23-12.54.46:990][783]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.23-12.54.46:990][783]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.23-12.54.46:990][783]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.23-12.54.46:992][783]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.23-12.54.47:016][783]LogAudioMixer: Display: Using Audio Hardware Device Speakers (PRO X 2 LIGHTSPEED)
+[2024.04.23-12.54.47:016][783]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.23-12.54.47:016][783]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.23-12.54.47:016][783]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.23-12.54.47:018][783]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.04.23-12.54.47:018][783]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=10
+[2024.04.23-12.54.47:019][783]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.04.23-12.54.47:019][783]LogInit: FAudioDevice initialized with ID 10.
+[2024.04.23-12.54.47:019][783]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.04.23-12.54.47:019][783]LogAudio: Display: Audio Device (ID: 10) registered with world 'ThirdPersonMap'.
+[2024.04.23-12.54.47:019][783]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.04.23-12.54.47:034][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.23-12.54.47:034][783]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.23-12.54.47:041][783]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.23-14.54.47
+[2024.04.23-12.54.47:041][783]LogWorld: Bringing up level for play took: 0.006526
+[2024.04.23-12.54.47:046][783]PIE: Server logged in
+[2024.04.23-12.54.47:048][783]PIE: Play in editor total start time 0,114 seconds.
+[2024.04.23-12.54.47:057][783]LogViewport: Scene viewport resized to 1274x680, mode Windowed.
+[2024.04.23-12.55.10:746][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.23-12.55.10:746][610]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.23-12.55.10:748][610]LogSlate: Window 'MED4 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.04.23-12.55.10:766][610]LogSpawn: Warning: SpawnActor failed because we are in the process of tearing down the world
+[2024.04.23-12.55.10:767][610]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.23-12.55.10:768][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.23-12.55.10:769][610]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.23-12.55.10:775][610]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.23-12.55.10:779][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.23-12.55.10:790][610]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.04.23-12.55.10:791][610]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.04.23-12.55.10:792][610]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.04.23-12.55.10:798][610]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.04.23-12.55.10:864][611]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.04.23-12.55.54:418][525]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.04.23-12.55.54:422][525]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.23-12.55.54:422][525]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.23-12.55.54:424][525]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 13 ms)
+[2024.04.23-12.55.54:424][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.23-12.55.54:424][525]PIE: New page: PIE session: ThirdPersonMap (23 Apr 2024, 16.55.54)
+[2024.04.23-12.55.54:424][525]LogPlayLevel: Display: Creating online subsystem for client :Context_30
+[2024.04.23-12.55.54:426][525]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.04.23-12.55.54:458][526]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.23-12.55.54:461][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003437s)
+[2024.04.23-12.55.54:461][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003479s)
+[2024.04.23-12.55.54:471][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.04.23-12.55.54:475][526]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.23-12.55.54:475][526]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.23-12.55.54:476][526]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.23-12.55.54:476][526]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.23-12.55.54:476][526]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.23-12.55.54:476][526]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.23-12.55.54:476][526]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.23-12.55.54:477][526]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.23-12.55.54:477][526]LogWorldPartition: Display: WorldPartition initialize took 934 us (total: 770 ms)
+[2024.04.23-12.55.54:477][526]LogPlayLevel: PIE: World Init took: (0.001858s)
+[2024.04.23-12.55.54:477][526]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.04.23-12.55.54:477][526]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.23-12.55.54:477][526]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.23-12.55.54:477][526]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.23-12.55.54:477][526]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.23-12.55.54:477][526]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.23-12.55.54:477][526]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.23-12.55.54:477][526]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.23-12.55.54:477][526]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.23-12.55.54:478][526]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.23-12.55.54:478][526]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.23-12.55.54:478][526]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.23-12.55.54:479][526]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.23-12.55.54:503][526]LogAudioMixer: Display: Using Audio Hardware Device Speakers (PRO X 2 LIGHTSPEED)
+[2024.04.23-12.55.54:503][526]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.23-12.55.54:503][526]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.23-12.55.54:503][526]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.23-12.55.54:504][526]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.04.23-12.55.54:504][526]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=11
+[2024.04.23-12.55.54:506][526]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.04.23-12.55.54:506][526]LogInit: FAudioDevice initialized with ID 11.
+[2024.04.23-12.55.54:506][526]LogAudio: Display: Audio Device (ID: 11) registered with world 'ThirdPersonMap'.
+[2024.04.23-12.55.54:506][526]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.04.23-12.55.54:506][526]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.04.23-12.55.54:522][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.23-12.55.54:523][526]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.23-12.55.54:531][526]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.23-14.55.54
+[2024.04.23-12.55.54:531][526]LogWorld: Bringing up level for play took: 0.008959
+[2024.04.23-12.55.54:537][526]PIE: Server logged in
+[2024.04.23-12.55.54:538][526]PIE: Play in editor total start time 0,115 seconds.
+[2024.04.23-12.55.54:546][526]LogViewport: Scene viewport resized to 1274x680, mode Windowed.
+[2024.04.23-12.58.07:734][480]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.23-12.58.07:735][480]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.23-12.58.07:735][480]LogSlate: Window 'MED4 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.04.23-12.58.07:744][480]LogSpawn: Warning: SpawnActor failed because we are in the process of tearing down the world
+[2024.04.23-12.58.07:745][480]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.23-12.58.07:746][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.23-12.58.07:746][480]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.23-12.58.07:753][480]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.23-12.58.07:761][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.23-12.58.07:776][480]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.04.23-12.58.07:776][480]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.04.23-12.58.07:778][480]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.04.23-12.58.07:784][480]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.04.23-12.58.07:866][481]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.04.23-12.59.19:782][141]LogEditorFactories: Performing atomic reimport of [C:/Users/gulda/Downloads/mixamo_converter/OutgoingFbx/AdministeringCpr.UE.fbx]
+[2024.04.23-12.59.19:789][141]LogFbx: Loading FBX Scene from C:/Users/gulda/Downloads/mixamo_converter/OutgoingFbx/AdministeringCpr.UE.fbx
+[2024.04.23-12.59.19:828][141]LogFbx: FBX Scene Loaded Succesfully
+[2024.04.23-12.59.19:834][141]LogFbx: Parsing AnimStack mixamo.com
+[2024.04.23-12.59.20:192][141]LogScript: Warning: Script Msg: /Game/Animations/AdministeringCpr_UE : New play length is same as existing one: 259 frames
+[2024.04.23-12.59.22:082][141]LogEditorFactories: -- imported successfully
+[2024.04.23-12.59.30:440][899]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\gulda\Downloads\mixamo_converter\OutgoingFbx\ReceivingCpr.UE.fbx)
+[2024.04.23-12.59.30:445][899]LogFbx: Loading FBX Scene from C:\Users\gulda\Downloads\mixamo_converter\OutgoingFbx\ReceivingCpr.UE.fbx
+[2024.04.23-12.59.30:479][899]LogFbx: FBX Scene Loaded Succesfully
+[2024.04.23-12.59.35:062][899]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(0) root
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(1) pelvis
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(2) spine_01
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(3) spine_02
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(4) spine_03
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(5) spine_04
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(6) spine_05
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(7) neck_01
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(8) neck_02
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(9) head
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(10) clavicle_l
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(11) upperarm_l
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(12) lowerarm_l
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(13) lowerarm_twist_02_l
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(14) lowerarm_twist_01_l
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(15) lowerarm_correctiveRoot_l
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(16) lowerarm_in_l
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(17) lowerarm_out_l
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(18) lowerarm_fwd_l
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(19) lowerarm_bck_l
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(20) hand_l
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(21) middle_metacarpal_l
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(22) middle_01_l
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(23) middle_02_l
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(24) middle_03_l
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(25) pinky_metacarpal_l
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(26) pinky_01_l
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(27) pinky_02_l
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(28) pinky_03_l
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(29) ring_metacarpal_l
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(30) ring_01_l
+[2024.04.23-12.59.35:085][899]LogFbx: SortedLinks :(31) ring_02_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(32) ring_03_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(33) thumb_01_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(34) thumb_02_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(35) thumb_03_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(36) index_metacarpal_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(37) index_01_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(38) index_02_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(39) index_03_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(40) wrist_inner_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(41) wrist_outer_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(42) weapon_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(43) upperarm_twist_01_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(44) upperarm_twistCor_01_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(45) upperarm_twist_02_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(46) upperarm_tricep_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(47) upperarm_bicep_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(48) upperarm_twistCor_02_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(49) upperarm_correctiveRoot_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(50) upperarm_bck_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(51) upperarm_fwd_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(52) upperarm_in_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(53) upperarm_out_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(54) clavicle_out_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(55) clavicle_scap_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(56) clavicle_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(57) upperarm_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(58) lowerarm_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(59) lowerarm_twist_02_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(60) lowerarm_twist_01_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(61) lowerarm_correctiveRoot_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(62) lowerarm_out_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(63) lowerarm_in_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(64) lowerarm_fwd_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(65) lowerarm_bck_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(66) hand_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(67) middle_metacarpal_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(68) middle_01_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(69) middle_02_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(70) middle_03_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(71) pinky_metacarpal_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(72) pinky_01_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(73) pinky_02_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(74) pinky_03_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(75) ring_metacarpal_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(76) ring_01_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(77) ring_02_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(78) ring_03_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(79) thumb_01_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(80) thumb_02_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(81) thumb_03_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(82) index_metacarpal_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(83) index_01_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(84) index_02_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(85) index_03_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(86) wrist_inner_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(87) wrist_outer_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(88) weapon_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(89) upperarm_twist_01_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(90) upperarm_twistCor_01_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(91) upperarm_twist_02_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(92) upperarm_tricep_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(93) upperarm_bicep_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(94) upperarm_twistCor_02_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(95) upperarm_correctiveRoot_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(96) upperarm_bck_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(97) upperarm_in_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(98) upperarm_fwd_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(99) upperarm_out_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(100) clavicle_out_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(101) clavicle_scap_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(102) clavicle_pec_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(103) spine_04_latissimus_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(104) spine_04_latissimus_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(105) clavicle_pec_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(106) thigh_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(107) calf_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(108) foot_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(109) ball_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(110) ankle_bck_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(111) ankle_fwd_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(112) calf_twist_02_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(113) calf_twistCor_02_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(114) calf_twist_01_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(115) calf_correctiveRoot_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(116) calf_kneeBack_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(117) calf_knee_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(118) thigh_twist_01_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(119) thigh_twistCor_01_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(120) thigh_twist_02_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(121) thigh_twistCor_02_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(122) thigh_correctiveRoot_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(123) thigh_fwd_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(124) thigh_bck_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(125) thigh_out_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(126) thigh_in_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(127) thigh_bck_lwr_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(128) thigh_fwd_lwr_r
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(129) thigh_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(130) calf_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(131) foot_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(132) ball_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(133) ankle_bck_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(134) ankle_fwd_l
+[2024.04.23-12.59.35:086][899]LogFbx: SortedLinks :(135) calf_twist_02_l
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(136) calf_twistCor_02_l
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(137) calf_twist_01_l
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(138) calf_correctiveRoot_l
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(139) calf_kneeBack_l
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(140) calf_knee_l
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(141) thigh_twist_01_l
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(142) thigh_twistCor_01_l
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(143) thigh_twist_02_l
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(144) thigh_twistCor_02_l
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(145) thigh_correctiveRoot_l
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(146) thigh_bck_l
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(147) thigh_fwd_l
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(148) thigh_out_l
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(149) thigh_bck_lwr_l
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(150) thigh_in_l
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(151) thigh_fwd_lwr_l
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(152) ik_foot_root
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(153) ik_foot_l
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(154) ik_foot_r
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(155) ik_hand_root
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(156) ik_hand_gun
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(157) ik_hand_l
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(158) ik_hand_r
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(159) interaction
+[2024.04.23-12.59.35:087][899]LogFbx: SortedLinks :(160) center_of_mass
+[2024.04.23-12.59.35:091][899]LogFbx: Parsing AnimStack mixamo.com
+[2024.04.23-12.59.36:674][899]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Animations/ReceivingCpr_UE.ReceivingCpr_UE
+[2024.04.23-12.59.36:801][909]LogAnimationCompression: Display: Storing compressed animation data for /Game/Animations/ReceivingCpr_UE.ReceivingCpr_UE, at AnimationSequence/96eca94040dc7411c7c902c297547d70641592bc
+[2024.04.23-12.59.39:733][216]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Animations/ReceivingCpr_UE.ReceivingCpr_UE
+[2024.04.23-12.59.39:733][216]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Animations/ReceivingCpr_UE.ReceivingCpr_UE
+[2024.04.23-12.59.39:733][216]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_1
+[2024.04.23-12.59.39:734][216]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_1
+[2024.04.23-12.59.41:367][380]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Animations/ReceivingCpr_UE.ReceivingCpr_UE
+[2024.04.23-12.59.41:367][380]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Animations/ReceivingCpr_UE.ReceivingCpr_UE
+[2024.04.23-12.59.41:369][380]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_UAID_103D1CCDDE48F0EE01_1271040728
+[2024.04.23-12.59.41:371][380]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_UAID_103D1CCDDE48F0EE01_1271040728
+[2024.04.23-12.59.50:906][485]EditorErrors: New page: Actor attachment
+[2024.04.23-12.59.54:127][857]Cmd: DELETE
+[2024.04.23-12.59.54:127][857]Cmd: ACTOR DELETE
+[2024.04.23-12.59.54:134][857]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2024.04.23-12.59.54:147][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.04.23-12.59.54:152][857]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2024.04.23-13.00.22:394][ 61]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.04.23-13.00.22:398][ 61]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.23-13.00.22:398][ 61]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.23-13.00.22:400][ 61]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 15 ms)
+[2024.04.23-13.00.22:400][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.23-13.00.22:400][ 61]PIE: New page: PIE session: ThirdPersonMap (23 Apr 2024, 17.00.22)
+[2024.04.23-13.00.22:400][ 61]LogPlayLevel: Display: Creating online subsystem for client :Context_31
+[2024.04.23-13.00.22:403][ 61]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.04.23-13.00.22:438][ 62]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.23-13.00.22:442][ 62]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003811s)
+[2024.04.23-13.00.22:442][ 62]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003848s)
+[2024.04.23-13.00.22:453][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.04.23-13.00.22:456][ 62]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.23-13.00.22:456][ 62]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.23-13.00.22:456][ 62]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.23-13.00.22:457][ 62]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.23-13.00.22:457][ 62]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.23-13.00.22:457][ 62]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.23-13.00.22:457][ 62]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.23-13.00.22:458][ 62]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.23-13.00.22:458][ 62]LogWorldPartition: Display: WorldPartition initialize took 956 us (total: 771 ms)
+[2024.04.23-13.00.22:458][ 62]LogPlayLevel: PIE: World Init took: (0.001980s)
+[2024.04.23-13.00.22:458][ 62]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.04.23-13.00.22:458][ 62]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.23-13.00.22:458][ 62]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.23-13.00.22:458][ 62]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.23-13.00.22:458][ 62]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.23-13.00.22:458][ 62]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.23-13.00.22:458][ 62]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.23-13.00.22:458][ 62]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.23-13.00.22:458][ 62]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.23-13.00.22:458][ 62]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.23-13.00.22:458][ 62]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.23-13.00.22:458][ 62]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.23-13.00.22:460][ 62]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.23-13.00.22:486][ 62]LogAudioMixer: Display: Using Audio Hardware Device Speakers (PRO X 2 LIGHTSPEED)
+[2024.04.23-13.00.22:486][ 62]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.23-13.00.22:486][ 62]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.23-13.00.22:486][ 62]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.23-13.00.22:488][ 62]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.04.23-13.00.22:488][ 62]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=12
+[2024.04.23-13.00.22:488][ 62]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.04.23-13.00.22:488][ 62]LogInit: FAudioDevice initialized with ID 12.
+[2024.04.23-13.00.22:488][ 62]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.04.23-13.00.22:488][ 62]LogAudio: Display: Audio Device (ID: 12) registered with world 'ThirdPersonMap'.
+[2024.04.23-13.00.22:488][ 62]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.04.23-13.00.22:503][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.23-13.00.22:503][ 62]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.23-13.00.22:507][ 62]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.23-15.00.22
+[2024.04.23-13.00.22:507][ 62]LogWorld: Bringing up level for play took: 0.003323
+[2024.04.23-13.00.22:513][ 62]PIE: Server logged in
+[2024.04.23-13.00.22:514][ 62]PIE: Play in editor total start time 0,116 seconds.
+[2024.04.23-13.00.22:523][ 62]LogViewport: Scene viewport resized to 1274x680, mode Windowed.
+[2024.04.23-13.00.42:864][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.23-13.00.42:864][487]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.23-13.00.42:865][487]LogSlate: Window 'MED4 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.04.23-13.00.42:871][487]LogSpawn: Warning: SpawnActor failed because we are in the process of tearing down the world
+[2024.04.23-13.00.42:871][487]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.23-13.00.42:872][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.23-13.00.42:872][487]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.23-13.00.42:877][487]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.23-13.00.42:880][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.23-13.00.42:894][487]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.04.23-13.00.42:894][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.23-13.00.42:896][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.23-13.00.42:902][487]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.04.23-13.00.42:982][488]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.04.23-13.00.44:350][643]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.23-13.00.44:382][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.04.23-13.00.44:396][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.04.23-13.00.44:408][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.04.23-13.00.44:410][643]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/9E/K64DL9905LOZYIGNIVYLO9
+[2024.04.23-13.00.44:410][643]LogSavePackage: Moving '../../../../../../Users/gulda/Documents/Unity Projects/Group1MED4/MED4/Saved/K64DL9905LOZYIGNIVYLO9EBA6624842A7200A7EF40CB938E9294F.tmp' to '../../../../../../Users/gulda/Documents/Unity Projects/Group1MED4/MED4/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/9E/K64DL9905LOZYIGNIVYLO9.uasset'
+[2024.04.23-13.00.44:412][643]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/C4/LY58CB52H5VITLWPSXEZCP
+[2024.04.23-13.00.44:412][643]LogSavePackage: Moving '../../../../../../Users/gulda/Documents/Unity Projects/Group1MED4/MED4/Saved/LY58CB52H5VITLWPSXEZCP8BD4C91040488A53A99291A45CC33265.tmp' to '../../../../../../Users/gulda/Documents/Unity Projects/Group1MED4/MED4/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/C4/LY58CB52H5VITLWPSXEZCP.uasset'
+[2024.04.23-13.00.44:420][643]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 455 ms)
+[2024.04.23-13.00.44:422][643]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.23-13.00.44:422][643]LogContentValidation: Display: Validating /Script/Engine.SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_UAID_103D1CCDDE48EFEE01_2026303551
+[2024.04.23-13.00.44:422][643]LogContentValidation: Display: Validating /Script/Engine.SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_UAID_103D1CCDDE48F0EE01_1271040728
