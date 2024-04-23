@@ -2511,3 +2511,288 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.23-13.00.44:422][643]AssetCheck: New page: Asset Save: multiple assets
 [2024.04.23-13.00.44:422][643]LogContentValidation: Display: Validating /Script/Engine.SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_UAID_103D1CCDDE48EFEE01_2026303551
 [2024.04.23-13.00.44:422][643]LogContentValidation: Display: Validating /Script/Engine.SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_UAID_103D1CCDDE48F0EE01_1271040728
+[2024.04.23-13.01.56:230][ 68]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Animations/ReceivingCpr_UE.ReceivingCpr_UE
+[2024.04.23-13.01.56:231][ 68]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.23-13.01.56:231][ 68]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.23-13.01.56:238][ 68]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.04.23-13.01.56:469][ 68]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.23-13.01.56:469][ 68]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.23-13.01.56:590][ 68]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.23-13.01.56:590][ 68]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.23-13.01.56:604][ 68]LogViewport: Scene viewport resized to 1141x533, mode Windowed.
+[2024.04.23-13.01.56:618][ 68]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.04.23-13.02.03:488][544]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.04.23-13.02.18:280][550]LogSlate: Window 'ReceivingCpr_UE' being destroyed
+[2024.04.23-13.02.18:283][550]LogSlate: Window 'ReceivingCpr_UE' being destroyed
+[2024.04.23-13.02.18:298][550]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2024.04.23-13.02.18:298][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.23-13.02.18:307][550]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.04.23-13.02.18:307][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.23-13.02.18:346][550]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.04.23-13.02.18:346][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.23-13.05.31:671][527]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.04.23-13.05.31:674][527]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.020
+[2024.04.23-13.05.31:674][527]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/AdministeringCpr_UE] ([1] browsable assets)...
+[2024.04.23-13.05.31:701][527]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/AdministeringCpr_UE.AdministeringCpr_UE]
+[2024.04.23-13.05.31:701][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/AdministeringCpr_UE]
+[2024.04.23-13.05.31:720][527]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Animations/AdministeringCpr_UE_Auto2
+[2024.04.23-13.05.31:720][527]LogSavePackage: Moving '../../../../../../Users/gulda/Documents/Unity Projects/Group1MED4/MED4/Saved/AdministeringCpr_UE_Auto2290BCA1647C1034177FDBAB662961AB6.tmp' to '../../../../../../Users/gulda/Documents/Unity Projects/Group1MED4/MED4/Saved/Autosaves/Game/Animations/AdministeringCpr_UE_Auto2.uasset'
+[2024.04.23-13.05.31:721][527]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animations/ReceivingCpr_UE] ([1] browsable assets)...
+[2024.04.23-13.05.31:729][527]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animations/ReceivingCpr_UE.ReceivingCpr_UE]
+[2024.04.23-13.05.31:729][527]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animations/ReceivingCpr_UE]
+[2024.04.23-13.05.31:748][527]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Animations/ReceivingCpr_UE_Auto2
+[2024.04.23-13.05.31:748][527]LogSavePackage: Moving '../../../../../../Users/gulda/Documents/Unity Projects/Group1MED4/MED4/Saved/ReceivingCpr_UE_Auto2EA602D294C1BA09CF655E98A1BDAF717.tmp' to '../../../../../../Users/gulda/Documents/Unity Projects/Group1MED4/MED4/Saved/Autosaves/Game/Animations/ReceivingCpr_UE_Auto2.uasset'
+[2024.04.23-13.05.31:749][527]LogFileHelpers: Auto-saving content packages took 0.074
+[2024.04.23-13.06.54:004][855]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\gulda\Downloads\mixamo_converter\OutgoingFbx\Flair.UE.fbx)
+[2024.04.23-13.06.54:009][855]LogFbx: Loading FBX Scene from C:\Users\gulda\Downloads\mixamo_converter\OutgoingFbx\Flair.UE.fbx
+[2024.04.23-13.06.54:036][855]LogFbx: FBX Scene Loaded Succesfully
+[2024.04.23-13.06.57:151][855]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(0) root
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(1) pelvis
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(2) spine_01
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(3) spine_02
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(4) spine_03
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(5) spine_04
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(6) spine_05
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(7) neck_01
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(8) neck_02
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(9) head
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(10) clavicle_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(11) upperarm_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(12) lowerarm_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(13) lowerarm_twist_02_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(14) lowerarm_twist_01_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(15) lowerarm_correctiveRoot_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(16) lowerarm_in_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(17) lowerarm_out_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(18) lowerarm_fwd_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(19) lowerarm_bck_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(20) hand_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(21) middle_metacarpal_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(22) middle_01_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(23) middle_02_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(24) middle_03_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(25) pinky_metacarpal_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(26) pinky_01_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(27) pinky_02_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(28) pinky_03_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(29) ring_metacarpal_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(30) ring_01_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(31) ring_02_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(32) ring_03_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(33) thumb_01_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(34) thumb_02_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(35) thumb_03_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(36) index_metacarpal_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(37) index_01_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(38) index_02_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(39) index_03_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(40) wrist_inner_l
+[2024.04.23-13.06.57:171][855]LogFbx: SortedLinks :(41) wrist_outer_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(42) weapon_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(43) upperarm_twist_01_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(44) upperarm_twistCor_01_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(45) upperarm_twist_02_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(46) upperarm_tricep_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(47) upperarm_bicep_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(48) upperarm_twistCor_02_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(49) upperarm_correctiveRoot_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(50) upperarm_bck_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(51) upperarm_fwd_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(52) upperarm_in_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(53) upperarm_out_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(54) clavicle_out_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(55) clavicle_scap_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(56) clavicle_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(57) upperarm_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(58) lowerarm_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(59) lowerarm_twist_02_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(60) lowerarm_twist_01_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(61) lowerarm_correctiveRoot_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(62) lowerarm_out_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(63) lowerarm_in_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(64) lowerarm_fwd_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(65) lowerarm_bck_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(66) hand_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(67) middle_metacarpal_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(68) middle_01_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(69) middle_02_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(70) middle_03_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(71) pinky_metacarpal_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(72) pinky_01_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(73) pinky_02_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(74) pinky_03_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(75) ring_metacarpal_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(76) ring_01_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(77) ring_02_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(78) ring_03_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(79) thumb_01_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(80) thumb_02_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(81) thumb_03_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(82) index_metacarpal_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(83) index_01_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(84) index_02_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(85) index_03_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(86) wrist_inner_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(87) wrist_outer_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(88) weapon_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(89) upperarm_twist_01_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(90) upperarm_twistCor_01_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(91) upperarm_twist_02_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(92) upperarm_tricep_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(93) upperarm_bicep_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(94) upperarm_twistCor_02_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(95) upperarm_correctiveRoot_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(96) upperarm_bck_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(97) upperarm_in_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(98) upperarm_fwd_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(99) upperarm_out_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(100) clavicle_out_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(101) clavicle_scap_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(102) clavicle_pec_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(103) spine_04_latissimus_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(104) spine_04_latissimus_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(105) clavicle_pec_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(106) thigh_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(107) calf_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(108) foot_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(109) ball_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(110) ankle_bck_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(111) ankle_fwd_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(112) calf_twist_02_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(113) calf_twistCor_02_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(114) calf_twist_01_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(115) calf_correctiveRoot_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(116) calf_kneeBack_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(117) calf_knee_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(118) thigh_twist_01_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(119) thigh_twistCor_01_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(120) thigh_twist_02_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(121) thigh_twistCor_02_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(122) thigh_correctiveRoot_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(123) thigh_fwd_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(124) thigh_bck_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(125) thigh_out_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(126) thigh_in_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(127) thigh_bck_lwr_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(128) thigh_fwd_lwr_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(129) thigh_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(130) calf_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(131) foot_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(132) ball_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(133) ankle_bck_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(134) ankle_fwd_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(135) calf_twist_02_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(136) calf_twistCor_02_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(137) calf_twist_01_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(138) calf_correctiveRoot_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(139) calf_kneeBack_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(140) calf_knee_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(141) thigh_twist_01_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(142) thigh_twistCor_01_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(143) thigh_twist_02_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(144) thigh_twistCor_02_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(145) thigh_correctiveRoot_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(146) thigh_bck_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(147) thigh_fwd_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(148) thigh_out_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(149) thigh_bck_lwr_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(150) thigh_in_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(151) thigh_fwd_lwr_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(152) ik_foot_root
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(153) ik_foot_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(154) ik_foot_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(155) ik_hand_root
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(156) ik_hand_gun
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(157) ik_hand_l
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(158) ik_hand_r
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(159) interaction
+[2024.04.23-13.06.57:172][855]LogFbx: SortedLinks :(160) center_of_mass
+[2024.04.23-13.06.57:176][855]LogFbx: Parsing AnimStack mixamo.com
+[2024.04.23-13.06.57:451][855]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Animations/Flair_UE.Flair_UE
+[2024.04.23-13.06.57:473][855]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Animations/Flair_UE.Flair_UE
+[2024.04.23-13.06.57:500][857]LogAnimationCompression: Display: Storing compressed animation data for /Game/Animations/Flair_UE.Flair_UE, at AnimationSequence/70c680db8b748a911af387a120598b696d5fb517
+[2024.04.23-13.06.59:851][ 96]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Animations/Flair_UE.Flair_UE
+[2024.04.23-13.06.59:851][ 96]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Animations/Flair_UE.Flair_UE
+[2024.04.23-13.06.59:853][ 96]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_2
+[2024.04.23-13.06.59:854][ 96]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_2
+[2024.04.23-13.07.02:166][347]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Animations/Flair_UE.Flair_UE
+[2024.04.23-13.07.02:166][347]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Animations/Flair_UE.Flair_UE
+[2024.04.23-13.07.02:168][347]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_UAID_103D1CCDDE48F0EE01_1711839729
+[2024.04.23-13.07.02:169][347]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple.SKM_Quinn_Simple as actor: SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_UAID_103D1CCDDE48F0EE01_1711839729
+[2024.04.23-13.07.04:013][556]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.04.23-13.07.04:019][556]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.23-13.07.04:019][556]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.23-13.07.04:020][556]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 16 ms)
+[2024.04.23-13.07.04:020][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.23-13.07.04:020][556]PIE: New page: PIE session: ThirdPersonMap (23 Apr 2024, 17.07.04)
+[2024.04.23-13.07.04:020][556]LogPlayLevel: Display: Creating online subsystem for client :Context_35
+[2024.04.23-13.07.04:022][556]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2024.04.23-13.07.04:048][557]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.23-13.07.04:052][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003786s)
+[2024.04.23-13.07.04:052][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003823s)
+[2024.04.23-13.07.04:062][557]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.04.23-13.07.04:066][557]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.23-13.07.04:066][557]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.23-13.07.04:066][557]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.23-13.07.04:067][557]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.23-13.07.04:067][557]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.23-13.07.04:067][557]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.23-13.07.04:067][557]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.23-13.07.04:068][557]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.23-13.07.04:068][557]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 772 ms)
+[2024.04.23-13.07.04:068][557]LogPlayLevel: PIE: World Init took: (0.002196s)
+[2024.04.23-13.07.04:068][557]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.04.23-13.07.04:068][557]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.23-13.07.04:068][557]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.23-13.07.04:068][557]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.23-13.07.04:068][557]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.23-13.07.04:068][557]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.23-13.07.04:068][557]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.23-13.07.04:068][557]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.23-13.07.04:068][557]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.23-13.07.04:069][557]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.23-13.07.04:069][557]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.23-13.07.04:069][557]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.23-13.07.04:070][557]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.23-13.07.04:095][557]LogAudioMixer: Display: Using Audio Hardware Device Speakers (PRO X 2 LIGHTSPEED)
+[2024.04.23-13.07.04:096][557]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.23-13.07.04:096][557]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.23-13.07.04:096][557]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.23-13.07.04:097][557]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.04.23-13.07.04:097][557]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=13
+[2024.04.23-13.07.04:098][557]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.04.23-13.07.04:098][557]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.04.23-13.07.04:098][557]LogInit: FAudioDevice initialized with ID 13.
+[2024.04.23-13.07.04:098][557]LogAudio: Display: Audio Device (ID: 13) registered with world 'ThirdPersonMap'.
+[2024.04.23-13.07.04:098][557]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.04.23-13.07.04:112][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.23-13.07.04:112][557]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.23-13.07.04:118][557]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.23-15.07.04
+[2024.04.23-13.07.04:119][557]LogWorld: Bringing up level for play took: 0.005888
+[2024.04.23-13.07.04:126][557]PIE: Server logged in
+[2024.04.23-13.07.04:127][557]PIE: Play in editor total start time 0,108 seconds.
+[2024.04.23-13.07.04:135][557]LogViewport: Scene viewport resized to 1274x680, mode Windowed.
+[2024.04.23-13.11.35:184][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.23-13.11.35:184][ 63]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.23-13.11.35:185][ 63]LogSlate: Window 'MED4 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.04.23-13.11.35:188][ 63]LogSpawn: Warning: SpawnActor failed because we are in the process of tearing down the world
+[2024.04.23-13.11.35:188][ 63]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.23-13.11.35:189][ 63]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.23-13.11.35:189][ 63]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.23-13.11.35:192][ 63]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.23-13.11.35:195][ 63]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.23-13.11.35:209][ 63]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.04.23-13.11.35:209][ 63]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.23-13.11.35:211][ 63]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.23-13.11.35:218][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.04.23-13.11.35:296][ 64]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2024.04.23-13.12.07:753][892]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.23-13.12.07:786][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.04.23-13.12.07:798][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.04.23-13.12.07:807][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.04.23-13.12.07:809][892]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/MZ/TO4NJ6ENJLOULBM1MQILQG
+[2024.04.23-13.12.07:809][892]LogSavePackage: Moving '../../../../../../Users/gulda/Documents/Unity Projects/Group1MED4/MED4/Saved/TO4NJ6ENJLOULBM1MQILQG6CA1A6D94D93EC923336EE9B8B66FA50.tmp' to '../../../../../../Users/gulda/Documents/Unity Projects/Group1MED4/MED4/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/MZ/TO4NJ6ENJLOULBM1MQILQG.uasset'
+[2024.04.23-13.12.07:818][892]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 520 ms)
+[2024.04.23-13.12.07:820][892]AssetCheck: New page: Asset Save: SkeletalMeshActor_UAID_103D1CCDDE48F0EE01_1711839729
+[2024.04.23-13.12.07:820][892]LogContentValidation: Display: Validating /Script/Engine.SkeletalMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.SkeletalMeshActor_UAID_103D1CCDDE48F0EE01_1711839729
