@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [0426/120956.284:ERROR:os_crypt_win.cc(93)] Failed to decrypt: Nøglen er ikke gyldig for anvendelse i den angivne tilstand. (0x8009000B)
 [0426/121027.751:WARNING:value_store_frontend.cc(45)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
 [0426/121156.700:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
@@ -433,3 +434,7 @@
 [0426/175624.070:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
 [0426/175625.509:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
 [0426/175625.520:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+=======
+[0506/170326.855:WARNING:value_store_frontend.cc(45)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0506/170524.528:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+>>>>>>> 5e41824a8ae39150f578f6ac7884b13b19072204
